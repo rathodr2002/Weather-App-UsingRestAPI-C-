@@ -1,0 +1,12 @@
+@echo off
+REM Set the path to your desired location
+set "path=D:\Rishi\Project 2024\C++\WeatherAppUsingRestAPI\cpprestsdk-411a109\Release\src"
+
+
+set "PROJECT_PATH=C:\path\to\your\project"
+
+REM Navigate to the project path
+cd /d %PROJECT_PATH%
+
+REM Open the solution file
+start "" "%PROJECT_PATH%\Weather-App.sln"
